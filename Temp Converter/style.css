@@ -18,11 +18,9 @@ input {
   color: #ccc;
 }
 :-moz-placeholder {
-  /* Firefox 18- */
   color: #ccc;
 }
 ::-moz-placeholder {
-  /* Firefox 19+ */
   color: #ccc;
 }
 :-ms-input-placeholder {
