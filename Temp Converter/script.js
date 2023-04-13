@@ -13,6 +13,7 @@ function tempConvert() {
  
 document.getElementById('fahrenheit').value = parseFloat(fahrenheit).toFixed(1);
 document.getElementById('celsius').value = parseFloat(celsius).toFixed(1);
+}
  
 function clearForm() {
   document.getElementById('fahrenheit').value = '';
