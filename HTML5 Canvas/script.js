@@ -7,6 +7,7 @@ const canvas = document.querySelector('#draw');
       ctx.strokeStyle = '#BADA55';
       ctx.lineJoin = 'round';
       ctx.lineCap = 'round';
+      ctx.lineWidth = 10;
 
       let isDrawing = false;
       let lastX = 0;
@@ -31,3 +32,4 @@ const canvas = document.querySelector('#draw');
       canvas.addEventListener('mousemove', draw);
       canvas.addEventListener('mouseup', () => (isDrawing = false));
       canvas.addEventListener('mouseout', () => (isDrawing = false));
+    </script>
